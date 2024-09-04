@@ -1,0 +1,120 @@
+css 
+
+page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    #title-mon-programme {
+        display: flex;
+        align-items: center;
+        background-color: #181818;
+        border-radius: 20px;
+        margin: 3%;
+        width: 70%;
+        height: 100px;
+        justify-content: center;
+    }
+    #point-programme {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        background-color: #181818;
+        border-radius: 20px;
+        margin: 15px;
+        width: 70%;
+        height: 350px;
+    }
+
+    #quatrième-point {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        background-color: #181818;
+        border-radius: 20px;
+        margin: 15px;
+        width: 70%;
+        height: 500px;
+    }
+
+    #point {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+        height: 45px;
+        width: 80%;
+        margin: 20px;
+        border-radius: 20px;
+        color: #181818;
+    }
+    #paragraphe {
+        margin: 30px;
+    }
+}
+
+html : 
+
+<page>
+        <div id="title-mon-programme">
+            <h1>Mon programe</h1>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>1er point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Représentation des élèves de la classe au sein des conseils de classe</h1>
+            </div>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>2ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Réalisation de comptes-rendus après chaque conseil de classe</h1>
+            </div>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>3ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Être à l’écoute des moindres problèmes dans la classe</h1>
+            </div>
+        </div>
+        <div id="quatrième-point">
+            <div id="point">
+                <h1>4ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Mise en place d’un tournois interclasse d’un sport choisis par les élèves du  niveau, par un sondage démocratique( en collaboration avec les autres délégués des autres classes)</h1>
+            </div>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>5ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Mise en place de Débat traitant de différent sujet sociétales (Volontaire)</h1>
+            </div>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>6ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Noël canadien en décembre (avec Le Professeur principal)</h1>
+            </div>
+        </div>
+        <div id="point-programme">
+            <div id="point">
+                <h1>7ème point</h1>
+            </div>
+            <div id="paragraphe">
+                <h1>Création d’un compte instagram de classe avec un journal de classe</h1>
+            </div>
+        </div>
+</page>

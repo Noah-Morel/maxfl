@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="navbar">
+        <nav class="navbar">
+            <div class="selcetion">
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Page d'accueil</a>
+                    </li>
+                    
+                    <li>
+                        <a href="programe.html">Programme</a>
+                    </li>
+                    <li>
+                        <a href="Présentation.html">Présentation</a>
+                    </li>
+                    <li>
+                        <a href="À propos.html">À propos</a>
+                    </li>
+                </ul>
+            </div>        
+            <img src="resource/menu-btn.png" alt="menu hamburger" class="menu-hamburger"> 
+        </nav>
+        <div class="selcetion-hamburger" id="selcetion-hamburger">
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Page d'accueil</a>
+                </li>
+                
+                <li>
+                    <a href="programe.html">Programme</a>
+                </li>
+                <li>
+                    <a href="Présentation.html">Présentation</a>
+                </li>
+                <li>
+                    <a href="À propos.html">À propos</a>
+                </li>
+            </ul>
+        </div>   
+    </div>
+
+    <page>
+
+
+
+
+
+
+        <page-ordi class="page-ordi">
+            <bienvenue class="bienvenue" id="bienvenue">
+                <party-left-bienvenue>
+                    <div>   
+                        <text-bienvenue>
+                            <h1>Votez Max, le délégué <br>qu'il vous faut !!!</h1>
+                        </text-bienvenue>
+                    </div>
+                    <div>
+                        <a href="programe.html">
+                            <div id="bouton-bienvenue">
+                                <bouton-bienvenue>
+                                    <p>Mon programme</p>
+                                </bouton-bienvenue>
+                            </div>
+                        </a>
+                    </div>
+                </party-left-bienvenue>
+                <div id="séparation-bienvenue"></div>
+                <image-presentation>
+                    <img src="resource/max_costard.png" id="image-bienvenue">
+                </image-bienvenue>
+           </bienvenue>
+           <presentation class="presentation" id="presentation">
+                <party-left-presentation>
+                    <div>
+                        <text-presentation>
+                            <h1>Qui suis-je ?</h1>
+                        </text-presentation>
+                    </div>
+                    <a href="Présentation.html">
+                        <div id="bouton-presentation">
+                            <bouton-presentation>
+                                <p>Présentation</p>
+                            </bouton-presentation>
+                        </div>
+                    </a>
+                </party-left-presentation>
+                <div id="séparation-presentation"></div>
+                <image-presentation>
+                    <img id="image-presentation" src="resource/body.png" alt="image qui désigne un point d'interrogation">
+                </image-presentation>
+           </presentation>
+        </page-ordi>
+
+        
+
+
+
+
+        <page-mobile class="page-mobile">
+            <bienvenue class="bienvenue" id="bienvenue">
+                <party-left-bienvenue>
+                    <div>
+                        <text-bienvenue>
+                            <h1>Votez Max, le délégué <br>qu'il vous faut !!!</h1>
+                        </text-bienvenue>
+                    </div>
+                    <div>
+                        <a href="programe.html">
+                            <div id="bouton-bienvenue">
+                                <bouton-bienvenue>
+                                    <p>Mon programme</p>
+                                </bouton-bienvenue>
+                            </div>
+                        </a>
+                    </div>
+                </party-left-bienvenue>
+                <div id="séparation-bienvenue"></div>
+                <image-presentation>
+                    <img src="resource/max_costard.png" id="image-bienvenue">
+                </image-bienvenue>
+           </bienvenue>
+           <presentation class="presentation" id="presentation">
+                <party-left-presentation>
+                    <div>
+                        <text-presentation>
+                            <h1>Qui suis-je ?</h1>
+                        </text-presentation>
+                    </div>
+                    <a href="Présentation.html">
+                        <div id="bouton-presentation">
+                            <bouton-presentation>
+                                <p>Présentation</p>
+                            </bouton-presentation>
+                        </div>
+                    </a>
+                </party-left-presentation>
+                <div id="séparation-presentation"></div>
+                <image-presentation>
+                    <img id="image-presentation" src="resource/body.png" alt="image qui désigne un point d'interrogation">
+                </image-presentation>
+           </presentation>
+        </page-mobile>
+        <div id="espace"></div>
+    </page>
+</body>
+
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".selcetion-hamburger",)
+
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        
+        })
+</script>
+
+
+
+</html>
